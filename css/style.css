@@ -1,4 +1,10 @@
 .container{
     max-width: 1170px;
-    margin 0 auto
+    margin 0 auto;
+}
+
+[class*="col-"]{
+    height: 10px;
+    background-color: royalblue;
+    border: 1px solid white;
 }
