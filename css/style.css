@@ -4,7 +4,37 @@
 }
 
 [class*="col-"]{
-    height: 10px;
+    height: 30px;
     background-color: royalblue;
+}
+
+.txt{
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.txtneasted{
+    font-size: .6em;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+.border{
     border: 1px solid white;
+}
+
+.flex{
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.green{
+    height: 20px;
+    background-color: greenyellow;
+    border: 1px solid royalblue;
 }
